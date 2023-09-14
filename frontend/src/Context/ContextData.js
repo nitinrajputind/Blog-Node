@@ -12,7 +12,7 @@ const ContextData =({children})=>{
         const getData = async () =>{
             try{
                 const res = await axios.get(URL)
-                console.log(res.data);
+                // console.log(res.data);
                 setData(res.data);
             }
             catch(err){

@@ -9,7 +9,6 @@ import { ContextDataProvider } from '../Context/ContextData';
 
 const Home = () => {
   const ApiData = useContext(ContextDataProvider);
-  console.log(ApiData)
   return (
     <div>
       <Featured/>
