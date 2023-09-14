@@ -1,0 +1,118 @@
+.Header{
+    width: 100%;
+}
+
+/* Logo Style Start */
+.brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.brand h1{
+    font-weight: 700;
+}
+.brand a{
+    color: black;
+}
+.the{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+    height: 10px;
+    margin-right: 10px;
+    transform: rotate(269deg);
+}
+
+/* Logo Style End  */
+
+/* Navbar Style Start  */
+
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-link a{
+    font-size: 22px;
+    font-weight: 600;
+} 
+
+.hr{
+    background-color: grey;
+    width: 90%;
+    height: 3px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.activeClass{
+    color: rgb(49, 185, 239) !important;
+    transition-delay: 0.2s ease;
+}
+
+.notactiveClass{
+    color: black !important;
+    transition-delay: 0.2s ease;
+}
+.buger{
+    display: none;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+/* Media Queries  */
+
+/* Mobile Size Media */
+
+@media screen and (max-width: 768px){
+    .Header{
+        box-shadow: 0px 2px 5px grey;
+    }
+    .brand{
+        justify-content: flex-start;
+    }
+    .nav-link{
+        display: none;
+    }
+    .hr{
+        display: none;
+    }
+    .mobile-reponsive{
+        flex-direction: column;
+        background: white;
+        height: 18.1rem;
+        position: absolute;
+        z-index: 999;
+        width: 100%;
+    }
+    .mobile-reponsive li{
+        border-bottom: 1px solid grey;
+        text-align: center;
+        font-size: 2rem;
+    }
+    /* .buger{
+        display: block;
+        font-size: 2.5rem;
+        font-weight: 900;
+        position: absolute;
+        top: 33px;
+        right: 30px;
+    } */
+    .mobile-menu-icon{
+        background: transparent;
+        outline: none;
+        border: none;
+        display: block;
+        font-size: 3rem;
+        font-weight: 900;
+        position: absolute;
+        top: 16px;
+        right: 11px;
+    }
+}

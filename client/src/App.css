@@ -1,0 +1,41 @@
+/* Home Style  */
+
+/* Feature Style  */
+.TheLatest{
+    width: 90%;
+    margin : auto;
+    margin-top : 45px;
+}
+
+.Latest_contanier{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .Latest_contanier{
+        justify-content: center;
+        /* row-gap: 10vh; */
+    }
+}
+
+/* Featured style End  */
+
+
+
+/* Latest Article and top post */
+.Section_Contanier{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    row-gap: 100px;
+}
+
+

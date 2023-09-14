@@ -1,0 +1,60 @@
+.Post_Contanier{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    width: 500px;
+    height: 250px;
+    border-bottom: 3px solid #f0f0f0;
+    opacity: 1;
+}
+.PostImg{
+    width: 600px;
+    height: 200px;
+}
+.PostImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.Post_Content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+.Post_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Post_heading h2{
+    font-size: 1.1rem;
+    font-weight: 700;
+    overflow: hidden;
+    color: #2d3436;
+}
+.Post_heading p{
+    font-size: 1rem;
+    color: #908D8D;
+    font-weight: 500;
+}
+
+.num{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    font-size: 4rem;
+    line-height: 40px;
+    color: #F0F0F0;
+}
+
+
+@media screen and (max-width: 913px) {
+     .Post_Contanier{
+        width: 90vw;
+     }   
+}

@@ -1,0 +1,14 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  width: 100%;
+  min-height: 100% !important;
+}
