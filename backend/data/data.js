@@ -60,7 +60,7 @@ const data = [
   },
   {
     id: 8,
-    title: "Amitabh Bachchanr",
+    title: "Amitabh Bachchan",
     img: "https://media.gettyimages.com/photos/indian-actor-amitabh-bachchan-poses-on-the-red-carpet-for-the-4th-picture-id97942617?k=20&m=97942617&s=612x612&w=0&h=sjWZ5uQGKCfe3xuaEnbRluarZVhCinXidBwJjJaUtho=",
     category: "Bollywood",
     description:
