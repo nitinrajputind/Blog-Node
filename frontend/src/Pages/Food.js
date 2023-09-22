@@ -83,7 +83,8 @@ const Food = () => {
         {/* This is Top Post Container  */}
         {/* style={{width : "500px" , border : "2px solid red"}} */}
         <div className="rightContanier" >
-        <h2>
+          <div className="div">
+          <h2>
           To Posts
           <hr style={{width: "100px", height: "3px", background: "red", border: "none" , outline:"none" , borderRadius:"5px"}}/>
         </h2>
@@ -100,6 +101,15 @@ const Food = () => {
           )
          })
         }
+        </div>
+
+         {/* Advertisemnet section  */}
+         <div className="advertisement_fitness" >
+          <h1>Advertesiment</h1>
+          <img src="https://i.pinimg.com/564x/14/d2/c2/14d2c24b088cda4b7eb523ad4f8e7bf5.jpg" alt="" />
+        </div>
+
+        
         </div>
       </div>
 

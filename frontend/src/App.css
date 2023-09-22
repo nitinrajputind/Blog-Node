@@ -39,3 +39,95 @@
 }
 
 
+
+/* Advertisement on Home Page  */
+.rightContanier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.advertisement_Home{
+    border: 1px solid grey;
+    height: 144rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    mix-blend-mode: screen;
+    background-color: rgba(114, 110, 110, 0.591);
+    /* display: none; */
+}
+
+.advertisement_Bollywood{
+    border: 1px solid grey;
+    height: 119rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(114, 110, 110, 0.591);
+}
+.advertisement_Bollywood img{
+    width: 100%;
+    height: 90%;
+}
+
+.advertisement_Hollywood{
+    border: 1px solid grey;
+    height: 81rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(114, 110, 110, 0.591);
+
+}
+.advertisement_Hollywood img{
+    width: 100%;
+    height: 90%;
+}
+
+.advertisement_Tech{
+    border: 1px solid grey;
+    height: 134rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(114, 110, 110, 0.591);
+}
+.advertisement_Tech img ,  .advertisement_fitness img{
+    width: 100%;
+    height: 90%;
+}
+.advertisement_fitness{
+    border: 1px solid grey;
+    height: 78rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(114, 110, 110, 0.591);
+}
+
+
+
+
+
+@media screen and (max-width: 1406px) {
+    .advertisement{
+        display: none;
+    }
+    .advertisement_Hollywood{
+        display: none;
+    }
+    .advertisement_Bollywood{
+        display: none;
+    }
+    .advertisement_Tech{
+        display: none;
+    }
+    .advertisement_fitness{
+        display: none;
+    }
+}
