@@ -87,7 +87,7 @@ const Hollywood = () => {
        </div>
        {/* advertisement Section */}
        <div className="advertisement_Hollywood" >
-          <h1>Advertesiment</h1>
+          <h1>Advertisement</h1>
           <img src="https://i.pinimg.com/564x/14/d2/c2/14d2c24b088cda4b7eb523ad4f8e7bf5.jpg" alt="" />
         </div>
 
