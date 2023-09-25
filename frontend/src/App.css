@@ -115,8 +115,8 @@
 
 
 @media screen and (max-width: 1406px) {
-    .advertisement{
-        display: none;
+    .advertisement_Home{
+        display: none !important;
     }
     .advertisement_Hollywood{
         display: none;
